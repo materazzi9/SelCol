@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+</head>
+
+<body>
+    <h1>Contactanos</h1>
+    <p>Este formulario nos ayudara a responderte alguna pregunta o simplemente nos hara saber algun comentarion que
+        que tengas acerca el equipo y su asociacion.
+    </p>
+    <form>
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true" /><br />
+
+        <label for="apellido">Apellido:</label><br />
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true" /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+
+
+
+        <label>Género</label><br />
+
+        <input type="radio" id="masculino" name="genero" value="masculino" />
+        <label for="masculino">Mr</label><br />
+        <input type="radio" id="femenino" name="genero" value="femenino" />
+        <label for="femenino">Mrs</label><br />
+        <input type="radio" id="otro" name="genero" value="otro" />
+        <label for="otro">Otro</label><br />
+
+
+
+        <label for="comentario">Comentario:</label><br />
+        <textarea id="comentario" name="comentario" rows="2" cols="30">Este es mi comentario    
+        </textarea><br />
+
+        <br />
+        <input type="submit" value="Enviar" />
+
+    </form>
+
+    <br />
+    <a href="../index.html">Inicio</a>
+</body>
+
+</html>
